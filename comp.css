@@ -1,0 +1,23 @@
+.navbar.navbar-inverse.navbar-fixed-top.test {
+  min-width: 1200px;
+}
+
+body {
+  overflow-x: hidden !important;
+  background: -webkit-linear-gradient(
+    90deg,
+    #2a1808,
+    #282937,
+    #2a1808
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    90deg,
+    #2a1808,
+    #282937,
+    #2a1808
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.text-white {
+  color: white;
+}
