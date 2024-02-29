@@ -1,8 +1,9 @@
 .button {
-  min-width: 300px;
-  min-height: 60px;
+  width: calc(150px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(45px + (60 - 45) * ((100vw - 500px) / (1920 - 500)));
   font-family: "Nunito", sans-serif;
-  font-size: 22px;
+  font-size: calc(16.5px + (22 - 16.5) * ((100vw - 500px) / (1920 - 500)));
+
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-weight: 700;
@@ -26,8 +27,8 @@
 button::before {
   content: "";
   border-radius: 1000px;
-  min-width: calc(300px + 12px);
-  min-height: calc(60px + 12px);
+  width: calc(150px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(45px + (60 - 45) * ((100vw - 500px) / (1920 - 500)));
   border: 6px solid #00ffcb;
   box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
   position: absolute;
