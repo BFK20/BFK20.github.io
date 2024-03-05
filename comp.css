@@ -21,3 +21,12 @@ body {
 .text-white {
   color: white;
 }
+.fm-img {
+  max-width: 100px;
+  max-height: 55px;
+  width: calc(50px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));
+  height: calc(30px + (60 - 45) * ((100vw - 500px) / (1920 - 500)));
+}
+.fm-font {
+  font-size: calc(12px + 8 * (100vw - 320px) / 1400);
+}
