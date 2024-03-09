@@ -21,12 +21,16 @@ body {
 .text-white {
   color: white;
 }
+
 .fm-img {
-  max-width: 100px;
-  max-height: 55px;
   width: calc(50px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));
   height: calc(30px + (60 - 45) * ((100vw - 500px) / (1920 - 500)));
 }
-.fm-font {
-  font-size: calc(12px + 8 * (100vw - 320px) / 1400);
+.fm-img185 {
+  width: calc(150px + (300 - 175) * ((100vw - 800px) / (1920 - 500)));
+  height: calc(75px + (60 - 55) * ((100vw - 500px) / (1920 - 500)));
+}
+.fm-img175 {
+  width: calc(60px + (300 - 200) * ((100vw - 200px) / (1920 - 500)));
+  height: calc(30px + (60 - 55) * ((100vw - 400px) / (1920 - 500)));
 }
