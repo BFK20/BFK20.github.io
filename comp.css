@@ -4,11 +4,11 @@
 
 body {
   overflow-x: hidden !important;
-  background: rgb(0, 0, 0);
+  background: rgb(21, 103, 115);
   background: radial-gradient(
     circle,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(20, 144, 187, 1) 100%
+    rgba(21, 103, 115, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
   );
 }
 
@@ -36,4 +36,21 @@ body {
   display: inline-block;
   padding-left: 5%;
   padding-top: 5%;
+}
+.fnt {
+  font-size: calc(12px + (22 - 16.5) * ((100vw - 500px) / (1920 - 500)));
+}
+table {
+  background-color: white;
+  border-collapse: collapse;
+  border-spacing: 10px 30px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.styletbbl {
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+td {
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
 }

@@ -1,0 +1,36 @@
+<div class="container; text-center">
+  <div style="width: 100%">
+    <h1 class="text-white" style="margin-top: 2%">Физика</h1>
+    <h2 class="text-white">Какие формулы тебе нужны?</h2>
+  </div>
+</div>
+<div style="margin-top: 2%">
+  <div class="paddiv">
+    <form action="7_phith.html" target="_self">
+      <button class="xbtn" style="float: right; margin-right: 5%">
+        7-класс
+      </button>
+    </form>
+  </div>
+  <div class="paddiv">
+    <form action="8_phith.html" target="_self">
+      <button class="xbtn" style="float: right; margin-right: 10%">
+        8-класс
+      </button>
+    </form>
+  </div>
+  <div class="paddiv">
+    <form action="9_phith.html" target="_self">
+      <button class="xbtn" style="float: right; margin-right: 15%">
+        9-класс
+      </button>
+    </form>
+  </div>
+  <div class="paddiv">
+    <form action="10_phith.html" target="_self">
+      <button class="xbtn" style="float: right; margin-right: 20%">
+        10-класс
+      </button>
+    </form>
+  </div>
+</div>
