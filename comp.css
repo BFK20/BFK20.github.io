@@ -4,18 +4,12 @@
 
 body {
   overflow-x: hidden !important;
-  background: -webkit-linear-gradient(
-    90deg,
-    #2a1808,
-    #282937,
-    #2a1808
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    90deg,
-    #2a1808,
-    #282937,
-    #2a1808
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(20, 144, 187, 1) 100%
+  );
 }
 
 .text-white {
@@ -33,4 +27,13 @@ body {
 .fm-img175 {
   width: calc(60px + (300 - 200) * ((100vw - 200px) / (1920 - 500)));
   height: calc(30px + (60 - 55) * ((100vw - 400px) / (1920 - 500)));
+}
+.xbtn {
+  width: calc(60px + (300 - 200) * ((100vw - 200px) / (1920 - 500)));
+  height: calc(30px + (60 - 55) * ((100vw - 400px) / (1920 - 500)));
+}
+.paddiv {
+  display: inline-block;
+  padding-left: 5%;
+  padding-top: 5%;
 }
