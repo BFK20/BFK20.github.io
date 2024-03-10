@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta content="width=1180" name="viewport" id="viewport" />
+    <link rel="stylesheet" href="comp.css" />
+    <link rel="stylesheet" href="tabl.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="comp.css" />
-    <link rel="stylesheet" href="tabl.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,7 +20,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-body-tertiary">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-band" href="/">
           <img src="/photos/BFK20.png" alt="" width="100" height="40" />
         </a>
@@ -84,113 +83,104 @@
         <table class="table">
           <thead>
             <th scope="row">Номер</th>
-            <td colspan="2">Формула</td>
-            <td class="fm-font">Описание</td>
+            <td colspan="2" class="table-active">Формула</td>
+            <td>Описание</td>
           </thead>
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td colspan="2">
-                <img class="fm-img1" src="photos/1.png" alt="" />
-              </td>
-              <td class="fm-font">Скорость при равномерном движении</td>
+              <td colspan="2" class="table-active">Q = cm(t1-t2)</td>
+              <td>Колличество теплоты для нагревания</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td colspan="2">
-                <img src="photos/2.png" alt="" />
-              </td>
-              <td class="fm-font">Полотность</td>
+              <td colspan="2" class="table-active">Q = q*m</td>
+              <td>Колличество теплоты при сгорании топлива</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td colspan="2">
-                <img src="/photos/3.png" alt="" />
-              </td>
-              <td class="fm-font">Сила тяжести</td>
+              <td colspan="2" class="table-active">Q = λ*m</td>
+              <td>Колличество теплоты при плавлении</td>
             </tr>
             <tr>
               <th scope="row">4</th>
-              <td colspan="2"><img src="/photos/4.png" alt="" /></td>
-              <td class="fm-font">Сила Архимеда</td>
+              <td colspan="2" class="table-active">Q = l*m</td>
+              <td>Колличество теплоты для конденсации</td>
             </tr>
             <tr>
               <th scope="row">5</th>
-              <td colspan="2"><img src="/photos/5.png" alt="" /></td>
-              <td class="fm-font">Закон Гука</td>
+              <td colspan="2" class="table-active">Q = r*m</td>
+              <td>Колличество теплоты для парообразования</td>
             </tr>
             <tr>
               <th scope="row">6</th>
-              <td colspan="2"><img src="/photos/6.png" alt="" /></td>
-              <td class="fm-font">Сила реакции опоры</td>
+              <td colspan="2" class="table-active">
+                ρ(отн.)=m(нас.пара)/V(воз.)
+              </td>
+              <td>Закон Гука</td>
             </tr>
             <tr>
               <th scope="row">7</th>
-              <td colspan="2"><img src="/photos/7.png" alt="" /></td>
-              <td class="fm-font">Сила трения</td>
+              <td colspan="2" class="table-active">φ = ρ(абс.)/ρ(отн.)*100%</td>
+              <td>Сила реакции опоры</td>
             </tr>
             <tr>
               <th scope="row">8</th>
-              <td colspan="2">
-                <img src="/photos/8.png" alt="" />
-              </td>
-              <td class="fm-font">Механическая работа</td>
+              <td colspan="2" class="table-active">I = q/t</td>
+              <td>Сила тока</td>
             </tr>
             <tr>
               <th scope="row">9</th>
-              <td colspan="2"><img src="/photos/9.png" alt="" /></td>
-              <td class="fm-font">Механическая мощность</td>
+              <td colspan="2" class="table-active">I = U/R</td>
+              <td>Закон Ома</td>
             </tr>
             <tr>
               <th scope="row">10</th>
-              <td colspan="2"><img src="/photos/10.png" alt="" /></td>
-              <td class="fm-font">Момент сил</td>
+              <td colspan="2" class="table-active">R = ρ*l/S</td>
+              <td>Сопротивление проводника через личные параметры</td>
             </tr>
             <tr>
               <th scope="row">11</th>
-              <td colspan="2"><img src="/photos/11.png" alt="" /></td>
-              <td class="fm-font">Условие равновесия рычага</td>
+              <td colspan="2" class="table-active">A = U*q; A = U*I*t</td>
+              <td>Работа тока</td>
             </tr>
             <tr>
               <th scope="row">12</th>
-              <td colspan="2"><img src="/photos/12.png" alt="" /></td>
-              <td class="fm-font">Давление столба жидкости</td>
+              <td colspan="2" class="table-active">P = U*I</td>
+              <td>Мощность тока</td>
             </tr>
             <tr>
               <th scope="row">13</th>
-              <td colspan="2"><img src="/photos/13.png" alt="" /></td>
-              <td class="fm-font">Давление на поверхность</td>
+              <td colspan="2" class="table-active">Q = I^2*R*t; Q = U^2/R</td>
+              <td>Телота работы тока(закон Джоуля-Ленца)</td>
             </tr>
             <tr>
               <th scope="row">14</th>
-              <td colspan="2"><img src="/photos/14.png" alt="" /></td>
-              <td class="fm-font">Гидравлический пресс</td>
+              <td colspan="2" class="table-active">
+                <a href="phith.html" target="" class="btn btn-secondary mx-3">
+                  Последовательное соеденение
+                </a>
+              </td>
+              <td></td>
             </tr>
             <tr>
               <th scope="row">15</th>
-              <td colspan="2"><img src="/photos/15.png" alt="" /></td>
-              <td class="fm-font">Потенциальная энергия</td>
+              <td colspan="2" class="table-active">
+                <a href="phith.html" target="" class="btn btn-secondary mx-3">
+                  Параллельное соеденение
+                </a>
+              </td>
+              <td></td>
             </tr>
             <tr>
               <th scope="row">16</th>
-              <td colspan="2"><img src="/photos/16.png" alt="" /></td>
-              <td class="fm-font">
-                Потенциальная энергия упруго деформированного тела
-              </td>
+              <td colspan="2" class="table-active">D = 1/F</td>
+              <td>Оптическая сила линзы</td>
             </tr>
             <tr>
               <th scope="row">17</th>
-              <td colspan="2">
-                <img class="fm-img17" src="/photos/17.png" alt="" />
-              </td>
-              <td class="fm-font">Кинетическая энергия</td>
-            </tr>
-            <tr>
-              <th scope="row">18</th>
-              <td colspan="2">
-                <img class="fm-img18" src="/photos/18.png" alt="" />
-              </td>
-              <td>КПД</td>
+              <td colspan="2" class="table-active">sinα = sinβ</td>
+              <td>Угол падения равен углу отражения</td>
             </tr>
           </tbody>
         </table>

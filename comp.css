@@ -41,7 +41,12 @@ body {
   font-size: calc(12px + (22 - 16.5) * ((100vw - 500px) / (1920 - 500)));
 }
 table {
-  background-color: white;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(191, 190, 190, 1) 100%
+  );
   border-collapse: collapse;
   border-spacing: 10px 30px;
   border: 1px solid rgb(0, 0, 0);
