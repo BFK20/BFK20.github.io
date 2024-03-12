@@ -1,3 +1,48 @@
-.tabl {
-  background-color: aliceblue;
+table {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(191, 190, 190, 1) 100%
+  );
+  border-collapse: collapse;
+  border-spacing: 10px 30px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.styletbbl {
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+td {
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+td {
+  font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+  td {
+    font-size: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img#tblimg1 {
+    width: calc((100em) * (0.06));
+  }
+}
+@media screen and (max-width: 600px) {
+  img#tblimg2 {
+    width: calc((100em) * (0.08));
+  }
+}
+@media screen and (max-width: 600px) {
+  img#tblimg3 {
+    width: calc((100em) * (0.04));
+  }
+}
+@media screen and (max-width: 600px) {
+  img#tblimg4 {
+    width: calc((100em) * (0.03));
+  }
 }

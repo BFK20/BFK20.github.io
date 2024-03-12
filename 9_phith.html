@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="comp.css" />
+    <link rel="stylesheet" href="tabl.css">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -77,115 +78,126 @@
         </div>
       </div>
     </nav>
-    <div class="container; text-center">
-      <div class="row" style="margin-top: 5%">
-        <table class="table">
-          <thead>
-            <th scope="row">Номер</th>
-            <td colspan="2" class="table-active">Формула</td>
-            <td>Описание</td>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td colspan="2" class="table-active">S = X-Xo; S = V*t</td>
-              <td>Расстояние в ПРД</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td colspan="2" class="table-active">X = Xo + Vo*t + a*t^2/2;</td>
-              <td>Уравнение координат в ПРУД</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td colspan="2" class="table-active">
-                S = Vo*t + a*t^2/2; S = (V + Vo)/2; S = (V^2 - Vo^2)/2*a
-              </td>
-              <td>Расстояние ПРУД</td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td colspan="2" class="table-active">Q = l*m</td>
-              <td>Колличество теплоты для конденсации</td>
-            </tr>
-            <tr>
-              <th scope="row">5</th>
-              <td colspan="2" class="table-active">Q = r*m</td>
-              <td>Колличество теплоты для парообразования</td>
-            </tr>
-            <tr>
-              <th scope="row">6</th>
-              <td colspan="2" class="table-active">
-                ρ(отн.)=m(нас.пара)/V(воз.)
-              </td>
-              <td>Закон Гука</td>
-            </tr>
-            <tr>
-              <th scope="row">7</th>
-              <td colspan="2" class="table-active">φ = ρ(абс.)/ρ(отн.)*100%</td>
-              <td>Сила реакции опоры</td>
-            </tr>
-            <tr>
-              <th scope="row">8</th>
-              <td colspan="2" class="table-active">I = q/t</td>
-              <td>Сила тока</td>
-            </tr>
-            <tr>
-              <th scope="row">9</th>
-              <td colspan="2" class="table-active">I = U/R</td>
-              <td>Закон Ома</td>
-            </tr>
-            <tr>
-              <th scope="row">10</th>
-              <td colspan="2" class="table-active">R = ρ*l/S</td>
-              <td>Сопротивление проводника через личные параметры</td>
-            </tr>
-            <tr>
-              <th scope="row">11</th>
-              <td colspan="2" class="table-active">A = U*q; A = U*I*t</td>
-              <td>Работа тока</td>
-            </tr>
-            <tr>
-              <th scope="row">12</th>
-              <td colspan="2" class="table-active">P = U*I</td>
-              <td>Мощность тока</td>
-            </tr>
-            <tr>
-              <th scope="row">13</th>
-              <td colspan="2" class="table-active">Q = I^2*R*t; Q = U^2/R</td>
-              <td>Телота работы тока</td>
-            </tr>
-            <tr>
-              <th scope="row">14</th>
-              <td colspan="2" class="table-active">
-                <a href="phith.html" target="" class="btn btn-secondary mx-3">
-                  Последовательное соеденение
-                </a>
-              </td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">15</th>
-              <td colspan="2" class="table-active">
-                <a href="phith.html" target="" class="btn btn-secondary mx-3">
-                  Параллельное соеденение
-                </a>
-              </td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">16</th>
-              <td colspan="2" class="table-active">D = 1/F</td>
-              <td>Оптическая сила линзы</td>
-            </tr>
-            <tr>
-              <th scope="row">17</th>
-              <td colspan="2" class="table-active">sinα = sinβ</td>
-              <td>Угол падения равен углу отражения</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+    <div style="margin-top: 2%; margin-left: 2%; margin-right: 2%; margin-bottom: 2%;">
+      <table style="width: 100%">
+        <thead class="styletbbl">
+          <tr>
+            <td style="vertical-align: top; width: 5%">
+              Номер
+            </td>
+            <td class="styletbbl" style="vertical-align: top">
+              Формула
+            </td>
+            <td
+              style="
+                vertical-align: top;
+                width: 30%;
+              "
+            >
+              Описание
+            </td>
+          </tr>
+        </thead>
+        <tbody">
+          <tr>
+            <td class="styletbbl" scope="row">1</th>
+            <td class="styletbbl">
+              <img id="tblimg1" src="/photos/1_9.png" alt="">
+            </td>
+            <td class="styletbbl">Колличество теплоты для нагревания</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">2</th>
+            <td class="styletbbl"><img id="tblimg2" src="/photos/2_9.png" alt=""></td>
+            <td class="styletbbl">Колличество теплоты при сгорании топлив</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">3-1</th>
+            <td class="styletbbl"><img id="tblimg1" src="/photos/3_9-1.png" alt=""></td>
+            <td class="styletbbl">Колличество теплоты при плавлении</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">3-2</th>
+            <td class="styletbbl"><img id="tblimg1" src="/photos/3_9-2.png" alt=""></td>
+            <td class="styletbbl">Колличество теплоты для конденсации</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">3-3</th>
+            <td class="styletbbl"><img id="tblimg1" src="/photos/3_9-3.png" alt=""></td>
+            <td class="styletbbl">Колличество теплоты для парообразования</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">4</th>
+            <td class="styletbbl"><img id="tblimg1" src="/photos/4_9.png" alt=""></td>
+            <td class="styletbbl">Относительная влажность</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">5</th>
+            <td class="styletbbl"><img id="tblimg1" src="/photos/5_9.png" alt=""></td>
+            <td class="styletbbl">Влажность воздуха</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">6</th>
+            <td class="styletbbl"><img id="tblimg3" src="/photos/6_9.png" alt=""></td>
+            <td class="styletbbl">Сила тока</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">7</th>
+            <td class="styletbbl"><img id="tblimg4" src="/photos/7_9.png" alt=""></td>
+            <td class="styletbbl">Закон Ома</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">8</th>
+            <td class="styletbbl"><img id="tblimg1" src="/photos/8_9.png" alt=""></td>
+            <td class="styletbbl">Сопротивление проводника через личные параметры</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">9</th>
+            <td class="styletbbl"><img id="tblimg3" src="/photos/9_9.png" alt=""></td>
+            <td class="styletbbl">Работа тока</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">10</th>
+            <td class="styletbbl"><img id="tblimg3" src="/photos/10_9.png" alt=""></td>
+            <td class="styletbbl">Мощность тока</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">11</th>
+            <td class="styletbbl"><img id="tblimg2" src="/photos/11_9.png" alt=""></td>
+            <td class="styletbbl">Телота работы тока(закон Джоуля-Ленца)</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">12</th>
+            <td class="styletbbl"><img id="tblimg2" src="/photos/12_9.png" alt=""></td>
+            <td class="styletbbl">Последовательное соеденение</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">13</th>
+            <td class="styletbbl"><img id="tblimg2" src="/photos/13_9.png" alt=""></td>
+            <td class="styletbbl">Параллельное соеденение</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">14</th>
+            <td class="styletbbl"><img id="tblimg2" src="/photos/14_9.png" alt=""></td>
+            <td class="styletbbl">Оптическая сила линзы</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">15</th>
+            <td class="styletbbl"><img id="tblimg1" src="/photos/15_9.png" alt=""></td>
+            <td class="styletbbl">Угол падения равен углу отражения</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">16</th>
+            <td class="styletbbl"><img id="tblimg1" src="/photos/16_9.png" alt=""></td>
+            <td class="styletbbl">Угол падения равен углу отражения</td>
+          </tr>
+          <tr>
+            <td class="styletbbl" scope="row">17</th>
+            <td class="styletbbl"><img id="tblimg1" src="/photos/17_9.png" alt=""></td>
+            <td class="styletbbl">Угол падения равен углу отражения</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </body>
 </html>
