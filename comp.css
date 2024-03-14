@@ -40,3 +40,8 @@ body {
 .fnt {
   font-size: calc(12px + (22 - 16.5) * ((100vw - 500px) / (1920 - 500)));
 }
+@media screen and (max-width: 600px) {
+  img#author_img {
+    width: calc((100em) * (0.11));
+  }
+}
