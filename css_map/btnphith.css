@@ -1,11 +1,11 @@
 .butx {
+  border-radius: 1000px;
   background: rgb(0, 0, 0);
   background: radial-gradient(
     circle,
     rgba(0, 0, 0, 1) 0%,
     rgba(20, 187, 182, 0.9024859943977591) 100%
   );
-  border: none;
   border-radius: 1000px;
   box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
   transition: all 0.3s ease-in-out 0s;
@@ -19,7 +19,6 @@
   height: calc(45px + (60 - 45) * ((100vw - 500px) / (1920 - 500)));
   font-family: "Nunito", sans-serif;
   font-size: calc(12px + (22 - 16.5) * ((100vw - 500px) / (1920 - 500)));
-  f
 }
 
 .butx-new:hover {

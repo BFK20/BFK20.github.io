@@ -1,0 +1,10 @@
+img#ph {
+  width: calc((100em) * (0.5));
+  height: calc((100em) * (0.5));
+}
+@media (max-width: 500px) {
+  img#ph {
+    width: calc((100em) * (0.2));
+    height: calc((100em) * (0.2));
+  }
+}
