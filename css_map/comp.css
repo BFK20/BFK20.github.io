@@ -104,14 +104,10 @@ div#index_div {
 }
 @media (max-width: 500px) {
   div#index_div {
-    margin-top: 55%;
+    margin-top: 60%;
   }
 }
-@media (max-width: 1000px) {
-  div#index_div {
-    margin-top: 35%;
-  }
-}
+
 @media (max-width: 500px) {
   h1#index_title {
     font-size: 140%;
