@@ -11,11 +11,11 @@
   background: linear-gradient(
     90deg,
     rgb(73, 89, 91) 0%,
-    rgba(79, 209, 197, 1) 100%
+    rgb(110, 110, 110) 100%
   );
   border: none;
   border-radius: 1000px;
-  box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+  box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.64);
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
@@ -28,8 +28,8 @@
   border-radius: 1000px;
   width: calc(150px + (300 - 150) * ((100vw - 500px) / (1920 - 500)));
   height: calc(45px + (60 - 45) * ((100vw - 500px) / (1920 - 500)));
-  border: 6px solid #00ffcb;
-  box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
+  border: 6px solid #adadad;
+  box-shadow: 0 0 60px rgba(21, 21, 21, 0.259);
   position: absolute;
   top: 50%;
   left: 50%;

@@ -4,14 +4,14 @@
 
 body {
   overflow-x: hidden !important;
-  background: rgb(21, 103, 115);
-  background: radial-gradient(
-    circle,
-    rgba(21, 103, 115, 1) 0%,
+  background: rgb(45, 45, 48);
+  background: linear-gradient(
+    90deg,
+    rgba(45, 45, 48, 1) 10%,
+    rgba(101, 101, 103, 1) 100%,
     rgba(0, 0, 0, 1) 100%
   );
 }
-
 .text-white {
   color: white;
 }
