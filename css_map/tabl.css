@@ -56,6 +56,11 @@ td {
     width: calc((100em) * (0.17));
   }
 }
+@media screen and (max-width: 600px) {
+  img#tblimg8 {
+    width: calc((100em) * (0.16));
+  }
+}
 @media (max-width: 500px) {
   .styletbbl {
     border: 1px solid rgb(0, 0, 0);
