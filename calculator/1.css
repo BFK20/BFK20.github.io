@@ -1,0 +1,24 @@
+body{
+    overflow-x: hidden !important;
+    background-color: black;
+}
+
+#canvas {
+    background: white;
+    width: 800px;
+
+    height: 500px;
+    
+}
+
+.but {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border:none;
+    
+}
